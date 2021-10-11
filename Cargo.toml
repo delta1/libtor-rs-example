@@ -4,4 +4,5 @@ version = "0.1.0"
 edition = "2018"
 
 [dependencies]
-libtor = "46.6"
+libtor = { version="46.6" }
+tokio = { version="1.11", features=["full"] }
