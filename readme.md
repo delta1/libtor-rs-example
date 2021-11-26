@@ -2,7 +2,7 @@
 
 Uses [libtor] crate to run a Tor daemon in process.
 
-This example spawns the Tor daemon using Tokio's `spawn_blocking` and then spawn other work tasks to print dots, and to make a web request to `check.torproject.org` via the exposed socks proxy
+This example spawns the Tor daemon using Tokio's `spawn_blocking`, and then spawns other work tasks to print dots, and to make a web request to `check.torproject.org` via the exposed socks proxy.
 
 ## How to run
 
