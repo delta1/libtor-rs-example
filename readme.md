@@ -14,6 +14,10 @@ cargo run
 
 Hit `ctrl+C` twice to quit
 
+## Source
+
+[`src/main.rs`](src/main.rs)
+
 ## Example Output
 
 ```
